@@ -10,6 +10,46 @@ This is the releases repository. Downloads, changelogs, and the Sparkle update f
 
 Hackboard is in public beta. It's functional and stable for daily use, but you may encounter rough edges. Your feedback is what shapes the product — please [report bugs and share ideas](https://github.com/farbe-software/hackboard-releases/issues).
 
+## Core Features
+
+- **Letter keys as modifiers** — turn any key into a modifier to create powerful shortcut systems
+- **Namespaced shortcuts** — remap shortcuts of any app to namespaced, more easily rememberable alternatives
+- **Instant context switching and shell commands** — switch apps instantly, no more cmd+tab 
+- **Independent left and right modifiers** — double your modifier keys by making each side work separately
+- **Ergonomics** configure numbers and symbols to right modifier + home row keys
+- **Visual editor** — speed up config time by using the lean UI - no more json editing
+
+### Example: Namespaced Shortcuts
+
+Instead of memorizing `Cmd+Shift+K` to delete a line in VS Code, create a **D (Delete) namespace**:
+
+| Hold | Then press | Action |
+|------|-----------|--------|
+| `D` | `L` | Delete line |
+| `D` | `W` | Delete word |
+| `D` | `E` | Delete to end of line |
+
+Or a **W (Window) namespace** for window management:
+
+| Hold | Then press | Action |
+|------|-----------|--------|
+| `W` | `H` | Move window left |
+| `W` | `L` | Move window right |
+| `W` | `F` | Fullscreen |
+
+Or a **symbol layer** for ergonomic access to characters that normally require reaching:
+
+| Hold | Then press | Action |
+|------|-----------|--------|
+| `S` | `J` | `(` |
+| `S` | `K` | `)` |
+| `S` | `L` | `=` |
+| `S` | `U` | `1` |
+| `S` | `I` | `2` |
+| `S` | `O` | `3` |
+
+Tap `D`, `W`, or `S` normally and they type as usual — they only become modifiers when held. The letter gives you the mnemonic: **D** for Delete, **W** for Window, **S** for Symbols. No more guessing which three-modifier combo does what, and no more reaching for the number row.
+
 ## Get Started
 
 ### Requirements
