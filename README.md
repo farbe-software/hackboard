@@ -1,6 +1,6 @@
 # Hackboard
 
-Hackboard is a keyboard customizer for macOS. It enables namespaced shortcut systems by turning letter keys into modifiers (like ⌘, ⌥, ⌃, ⇧). It is driven by a custom fork of [Karabiner Elements](https://karabiner-elements.pqrs.org/), the trusted open-source tool for keyboard customization on macOS, with a visual editor on top.
+Hackboard is a keyboard customization app for macOS. It enables namespaced shortcut systems by turning letter keys into modifiers (like ⌘, ⌥, ⌃, ⇧). It is driven by a custom fork of [Karabiner Elements](https://karabiner-elements.pqrs.org/), the trusted open-source tool for keyboard customization on macOS, with a visual editor on top.
 
 ## Beta
 
@@ -9,13 +9,13 @@ Hackboard is in public beta. It's functional and stable for daily use, but you m
 ## Capabilities
 
 - **Letter keys as standalone modifiers**
-  <br><small>E.g. holding `A`, then pressing `T` maps to an action, e.g. 'Open Terminal'. No prior modifier needed. Hackboard's key rollover behaviour enables standalone letter keys to act as modifiers without interfering with normal typing.</small>
+  <br><small>E.g. holding `A`, then pressing and releasing `T` maps to an action, e.g. 'Open Terminal'. No prior modifier needed. Hackboard's key rollover behaviour enables standalone letter keys to act as modifiers without interfering with normal typing.</small>
 - **Standard modifier + letter key chains**
-  <br><small>E.g. hold Left Command, then hold `A`, then press `T`. Standard modifiers and letter-key modifiers work together seamlessly. At least four letter keys can be chained (subject to hardware limitations on some machines).</small>
+  <br><small>E.g. hold Left Command, then hold `A`, then pressing and releasing `T` maps to an action. Standard modifiers and letter-key modifiers work together seamlessly. At least four letter keys can be chained (subject to hardware limitations on some machines).</small>
 - **Use of right modifiers with separate mapping**
   <br><small>Typically unused right modifiers become useful and help make your keyboard more ergonomic.</small>
 - **Triggering of actions**
-  <br><small>Such as shell commands, remapped standard shortcuts, simple remapping of keys to a different output (great for remapping to more ergonomic alternatives), and text insertion.</small>
+  <br><small>Actions include shell commands, remapped standard shortcuts, simple remapping of keys to a different output (great for remapping to more ergonomic alternatives), and text insertion.</small>
 
 *For Karabiner-Elements users: Hb-Karabiner-Elements is based on and fully compatible with Karabiner Elements 15.0.0. Hackboard's configs are added at the top of the first profile as the first rule object.*
 
