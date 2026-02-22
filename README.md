@@ -1,36 +1,38 @@
 # Hackboard
 
-Hackboard is a keyboard customization app for macOS. It enables namespaced shortcut systems by turning letter keys into modifiers (like ⌘, ⌥, ⌃, ⇧). It is driven by a custom fork of [Karabiner Elements](https://karabiner-elements.pqrs.org/), the trusted open-source tool for keyboard customization on macOS, with a visual editor on top.
+Hackboard is a keyboard customization app for macOS. It enables namespaced shortcut systems by turning letter keys into modifiers (like ⌘, ⌥, ⌃, ⇧). It is driven by a custom fork (called Hb-Karabiner-Elements) of [Karabiner Elements](https://karabiner-elements.pqrs.org/), the trusted open-source tool for keyboard customization on macOS, with a visual editor on top.
 
 ## Beta
 
-Hackboard is in public beta. It's functional and stable for daily use, but you may encounter rough edges. Your feedback is what shapes the product — please [report bugs and share ideas](https://github.com/farbe-software/hackboard-releases/issues).
+Hackboard is in public beta. You may encounter rough edges. 
+
+Hackboard needs some system privilidges and allows for security-sensitive configurations. Please refer to the security information at [SECURITY.md](SECURITY.md). Use at your own risk. 
+
+Your feedback is what shapes the product — please [report bugs and share ideas](https://github.com/farbe-software/hackboard-releases/issues). 
 
 ## Capabilities
 
-- **Letter keys as standalone modifiers**
-  <br><small>E.g. holding `A`, then pressing and releasing `T` maps to an action, e.g. 'Open Terminal'. No prior modifier needed. Hackboard's key rollover behaviour enables standalone letter keys to act as modifiers without interfering with normal typing.</small>
 - **Standard modifier + letter key chains**
-  <br><small>E.g. hold Left Command, then hold `A`, then pressing and releasing `T` maps to an action. Standard modifiers and letter-key modifiers work together seamlessly. At least four letter keys can be chained (subject to hardware limitations on some machines).</small>
+  <br><small>E.g. holding Left Command, then holding `A` (for 'Application'), then pressing and releasing `T` (for 'Terminal') maps to the shell command 'open -a 'Terminal.app'. This will open the app, or switch to it, if it is open. Standard modifiers and letter-key modifiers work together seamlessly. At least four letter keys can be chained (subject to hardware limitations on some machines).</small>
+- **Letter keys as standalone modifiers**
+  <br><small>E.g. holding `A`, then pressing and releasing `T` maps to an action, e.g. 'Open Terminal'. No prior modifier needed. Hackboard's built-in rollover behaviour enables standalone letter keys to act as modifiers without interfering with normal typing.</small>
 - **Use of right modifiers with separate mapping**
   <br><small>Typically unused right modifiers become useful and help make your keyboard more ergonomic.</small>
 - **Triggering of actions**
-  <br><small>Actions include shell commands, remapped standard shortcuts, simple remapping of keys to a different output (great for remapping to more ergonomic alternatives), and text insertion.</small>
-
-*For Karabiner-Elements users: Hb-Karabiner-Elements is based on and fully compatible with Karabiner Elements 15.0.0. Hackboard's configs are added at the top of the first profile as the first rule object.*
+  <br><small>Actions include shell commands, remapped standard shortcuts in any app, text insertion and simple key-to-key mapping (great for remapping hard-to-reach to more ergonomic alternatives). We will add more action types, including direct integrations (manual shortcut remaping is already possible for any app) with third-party apps, soon.</small>
 
 ## Get Started
 
 ### Requirements
 
-- macOS 13 (Ventura) or later
+- macOS 13 (Ventura) or later (earlier versions may work but are not actively supported). 
 - Apple Silicon (Intel builds may work but not actively supported)
 
 ### Install
 
-Download the latest `.dmg` from the [Releases page](https://github.com/farbe-software/hackboard-releases/releases/latest) and open the installer package inside it. The installer includes both Hackboard and Hb-Karabiner-Elements — no separate Karabiner download is needed.
+*Karabiner-Elements Users: Uninstall first and make karabiner.json compatible with Karabiner-Elements 15.0.0. If you're coming from an older version, you may benefit from migration instructions in the Hb-Karabiner-Elements UI. Downgrading from newer versions will need to done manually.* 
 
-*For Karabiner-Elements users: Your existing Karabiner-Elements installation will need to be uninstalled first. Hb-Karabiner-Elements is currently based on version 15.0.0. We currently don't support automatic migration from other versions.*
+Download the latest `.dmg` from the [Releases page](https://github.com/farbe-software/hackboard-releases/releases/latest) and open the installer package inside it. The installer includes both Hackboard and Hb-Karabiner-Elements — no separate Karabiner download is needed.
 
 ### First Launch
 
@@ -44,9 +46,7 @@ Once permissions are granted, **start Hackboard**. On launch, Hackboard runs an 
 
 Once folder access is granted, Hackboard loads an example configuration showcasing its capabilities. 
 
-
-
-You can then also add your first own keymaps through the sidebar. 
+You can then add your first own keymaps through the sidebar, or edit and delete existing ones.
 
 *For Karabiner-Elements users:*  
 *The configuration is injected into your `karabiner.json` as follows.*
@@ -56,54 +56,23 @@ You can then also add your first own keymaps through the sidebar.
 - *All layer definitions are stored as manipulators of type `"layer"` inside that rule*
 - *Only the Hackboard rule is touched — all other rules, profiles, and settings remain unchanged* 
 
-### Updates
+## Config Examples
 
-After installation, Hackboard checks for updates automatically and notifies you when a new version is available. Automatic updates are currently not supported for the Hb-Karabiner-Elements component. Future updates to it may require full uninstallation and re-installation. We are planning to add automatic updates here as well. 
-
-## Privacy & Security
-
-All keyboard input is processed locally by Karabiner's virtual keyboard driver. No keystrokes, usage patterns, or personal data leave your machine.
-
-Hb-Karabiner-Elements **does not modify the Karabiner Elements security model**. The security architecture — including the root-privileged core service, virtual HID driver restrictions, and closed-process design — is inherited unchanged from upstream. For details, see the [Karabiner Elements security documentation](https://karabiner-elements.pqrs.org/docs/help/advanced-topics/security/).
-
-Hackboard's only network activity:
-- **Update checks** — Sparkle periodically fetches a small XML file from this repository to check for new versions
-- **Crash reports** — anonymous crash data is sent to Sentry when the app encounters an error (`sendDefaultPii` is disabled)
-
-## Feedback & Issues
-
-Found a bug or have a suggestion? [Open an issue](https://github.com/farbe-software/hackboard-releases/issues) on this repository.
-
-## License
-
-Hackboard is proprietary software by [Farbe Software UG (haftungsbeschr.)](https://www.hackboard.app). See the [Terms of Service](https://www.hackboard.app/tos) for details.
-
-
-## Examples
-
-Hackboard ships with an example configuration that demonstrates its capabilities. The examples below are taken directly from it.
-
-### A-layer: App Launcher (with sublayers)
-
-Hold `A` to launch or switch to apps. Some entries use sublayers — a second letter key that narrows the selection.
+### A-layer: Applications (with sublayers)
 
 | Hold | Then press | Action |
 |------|------------|--------|
-| `A` | `C` | Open Chrome |
+| `A` | `C` | Open or Switch to Chrome |
 | `A` `C` | `M` | Open Google Maps in Chrome |
 | `A` `C` `M` | `K` | Open Google Maps in Chrome in a Specific Location|
 | `A` | `F` | Open Finder |
 | `A` `F` | `D` | Open Downloads folder |
 
-The sublayer `A` → `C` → `M` demonstrates three-key chaining: hold `A`, press `C` to narrow to Chrome actions, then press `M` for Google Maps.
-
-
 ### Arrow Actions (move/select/delete, vim-inspired)
 
 #### F-layer: Move Cursor / Use Arrow Keys 
 
-
-Hold `F` for moving the cursor / arrow keys, `S` and `D` for corresponding select and delete actions. The arrow keys are mapped to `J` `K` `L` `;` on the home row — inspired by vim's `hjkl`. Hit enter and escape without stretching your pinky. 
+Hold `F` for moving the cursor / arrow keys, `S` and `D` for corresponding select and delete actions. The arrow keys are mapped to `J` `K` `L` `;` on the home row — inspired by vim's `hjkl`. Hit enter (on `Space`) and escape (on `A`) without stretching your pinky. 
 
 | Hold | Then press | Action |
 |------|------------|--------|
@@ -122,7 +91,7 @@ Tap `F` by itself and it types "f" as usual.
 
 #### S-layer: Selection 
 
-Hold `S` to select text. Uses the same spatial layout as the F-layer, so the muscle memory carries over.
+Hold `S` to select text / items. Uses the same spatial layout as the F-layer, so the muscle memory carries over.
 
 | Hold | Then press | Action |
 |------|------------|--------|
@@ -168,3 +137,6 @@ Hold Right Command to type numbers from the home row, eliminating the reach to t
 | `Right ⌘` | `L` | 9 |
 | `Right ⌘` | `;` | 0 |
 
+## Feedback & Issues
+
+Found a bug or have a suggestion? [Open an issue](https://github.com/farbe-software/hackboard-releases/issues) on this repository.
