@@ -6,5 +6,27 @@
     <description>Updates for Hackboard</description>
     <language>en</language>
 
+    <item>
+      <title>Version 0.0.6-beta</title>
+      <description><![CDATA[
+<h1 id="hackboard-v0.0.6-beta">Hackboard v0.0.6-beta</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li>Trigger keys inlined with layer keys</li>
+<li>Keymaps table layout is now responsive instead of fixed-width</li>
+<li>Narrower sidebar</li>
+<li>Minimum window size enforced to prevent layout issues</li>
+</ul>
+      ]]></description>
+      <pubDate>Fri, 06 Mar 2026 15:02:08 +0000</pubDate>
+      <sparkle:version>0.0.6-beta</sparkle:version>
+      <sparkle:shortVersionString>0.0.6-beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/farbe-software/hackboard/releases/download/v0.0.6-beta/hackboard-0.0.6-beta.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="Vbperm4z8Npa0wE4qA4jCQMo/Udp480L0j2Id/XuCrvnXplswclaoOKq16M6JVqZ2jfhy8gBAfC8JIHmPbB4CA==" length="20044847" />
+    </item>
+
   </channel>
 </rss>
