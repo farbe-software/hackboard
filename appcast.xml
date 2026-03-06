@@ -7,25 +7,22 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.0.6-beta</title>
+      <title>Version 0.0.7-beta</title>
       <description><![CDATA[
-<h1 id="hackboard-v0.0.6-beta">Hackboard v0.0.6-beta</h1>
+<h1 id="hackboard-v0.0.7-beta">Hackboard v0.0.7-beta</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li>Trigger keys inlined with layer keys</li>
-<li>Keymaps table layout is now responsive instead of fixed-width</li>
-<li>Narrower sidebar</li>
-<li>Minimum window size enforced to prevent layout issues</li>
+<li>Added onboarding experience with interactive visualizations</li>
 </ul>
       ]]></description>
-      <pubDate>Fri, 06 Mar 2026 15:02:08 +0000</pubDate>
-      <sparkle:version>0.0.6-beta</sparkle:version>
-      <sparkle:shortVersionString>0.0.6-beta</sparkle:shortVersionString>
+      <pubDate>Fri, 06 Mar 2026 21:17:12 +0000</pubDate>
+      <sparkle:version>0.0.7-beta</sparkle:version>
+      <sparkle:shortVersionString>0.0.7-beta</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/farbe-software/hackboard/releases/download/v0.0.6-beta/hackboard-0.0.6-beta.zip"
+        url="https://github.com/farbe-software/hackboard/releases/download/v0.0.7-beta/hackboard-0.0.7-beta.zip"
         type="application/octet-stream"
-        sparkle:edSignature="Vbperm4z8Npa0wE4qA4jCQMo/Udp480L0j2Id/XuCrvnXplswclaoOKq16M6JVqZ2jfhy8gBAfC8JIHmPbB4CA==" length="20044847" />
+        sparkle:edSignature="MeOe9jHEZ4uSeHuKrd5o8PtfAyMxp7v7G3DbJOCI4lSZS8udua8nK0oySsY4kE0mH19E088qX8q/sizTd2vuBA==" length="20075882" />
     </item>
 
   </channel>
