@@ -8,7 +8,7 @@ Hackboard is in public beta. You may encounter rough edges.
 
 Hackboard needs some system privilidges and allows for security-sensitive configurations. Please refer to the security information at [SECURITY.md](SECURITY.md). Use at your own risk. 
 
-Your feedback is what shapes the product — please [report bugs and share ideas](https://github.com/farbe-software/hackboard-releases/issues). 
+Your feedback is what shapes the product — please [report bugs and share ideas](https://github.com/farbe-software/hackboard/issues). 
 
 ## Capabilities
 
@@ -32,7 +32,7 @@ Your feedback is what shapes the product — please [report bugs and share ideas
 
 *Karabiner-Elements Users: Uninstall first and make karabiner.json compatible with Karabiner-Elements 15.0.0. If you're coming from an older version, you may benefit from migration instructions in the Hb-Karabiner-Elements UI. Downgrading from newer versions will need to done manually.* 
 
-Download the latest `.dmg` from the [Releases page](https://github.com/farbe-software/hackboard-releases/releases/latest) and open the installer package inside it. The installer includes both Hackboard and Hb-Karabiner-Elements — no separate Karabiner download is needed.
+Download the latest `.dmg` from the [Releases page](https://github.com/farbe-software/hackboard/releases/latest) and open the installer package inside it. The installer includes both Hackboard and Hb-Karabiner-Elements — no separate Karabiner download is needed.
 
 ### First Launch
 
@@ -139,4 +139,4 @@ Hold Right Command to type numbers from the home row, eliminating the reach to t
 
 ## Feedback & Issues
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/farbe-software/hackboard-releases/issues) on this repository.
+Found a bug or have a suggestion? [Open an issue](https://github.com/farbe-software/hackboard/issues) on this repository.
