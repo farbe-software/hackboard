@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hackboard Update</title>
+    <link>https://www.hackboard.app</link>
+    <description>Updates for Hackboard</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 0.0.7-beta</title>
+      <description><![CDATA[
+<h1 id="hackboard-v0.0.7-beta">Hackboard v0.0.7-beta</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li>Added onboarding experience with interactive visualizations</li>
+</ul>
+      ]]></description>
+      <pubDate>Fri, 06 Mar 2026 21:17:12 +0000</pubDate>
+      <sparkle:version>0.0.7-beta</sparkle:version>
+      <sparkle:shortVersionString>0.0.7-beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/farbe-software/hackboard/releases/download/v0.0.7-beta/hackboard-0.0.7-beta.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="MeOe9jHEZ4uSeHuKrd5o8PtfAyMxp7v7G3DbJOCI4lSZS8udua8nK0oySsY4kE0mH19E088qX8q/sizTd2vuBA==" length="20075882" />
+    </item>
+
+  </channel>
+</rss>
