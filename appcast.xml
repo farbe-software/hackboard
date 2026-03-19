@@ -6,5 +6,56 @@
     <description>Updates for Hackboard</description>
     <language>en</language>
 
+    <item>
+      <title>Version 0.1.0</title>
+      <description><![CDATA[
+<h1 id="hackboard-v0.1.0">Hackboard v0.1.0</h1>
+<p>First public release.</p>
+<p>Hackboard is built on <a
+href="https://karabiner-elements.pqrs.org/">Karabiner Elements</a> by
+Fumihiko Takayama. <a
+href="https://karabiner-elements.pqrs.org/docs/pricing/">Support his
+work</a>.</p>
+<h2 id="whats-in-the-box">What’s in the box</h2>
+<ul>
+<li><strong>Letter keys as modifiers</strong> — Hold any letter key to
+activate a layer of shortcuts. Tap it normally and it types as usual,
+thanks to smart rollover that protects your typing at any speed.</li>
+<li><strong>Deep chaining</strong> — Layer up to four levels deep. E.g.
+hold <code>A</code> → <code>C</code> → <code>M</code> → <code>K</code>
+to drill from “Apps” → “Chrome” → “Maps” → a specific location.</li>
+<li><strong>Independent left/right modifiers</strong> — Right ⌘, ⌥, ⌃,
+and ⇧ can do different things than their left counterparts. E.g. hold
+Right ⌘ to type numbers from the home row.</li>
+<li><strong>Three action types</strong> — Remap to keyboard shortcuts,
+insert text, or run shell commands (including app switching).</li>
+<li><strong>Visual editor</strong> — Record key chains by performing
+them. No JSON editing needed.</li>
+<li><strong>Guided onboarding</strong> — Interactive walkthrough with
+example keymaps to get started immediately.</li>
+<li><strong>Built on Karabiner Elements</strong> — Ships with
+Hb-Karabiner-Elements (our fork, pinned to v15.0.0). Your existing
+Karabiner rules keep working alongside Hackboard keymaps.</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>macOS 13 (Ventura) or later</li>
+<li>Apple Silicon recommended</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li></li>
+</ul>
+      ]]></description>
+      <pubDate>Thu, 19 Mar 2026 10:52:00 +0000</pubDate>
+      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/farbe-software/hackboard/releases/download/v0.1.0/hackboard-0.1.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="DMFxxTAkPuHvUsBBavaUTliZeYMJyFnxv8ZmjrbCrxh1JOhmRlLBb7MjDHjIq8RI0SaU9kWBrFtjXtyPpl4dDQ==" length="20803674" />
+    </item>
+
   </channel>
 </rss>
