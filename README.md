@@ -52,8 +52,6 @@ Download the latest `.dmg` from the [Releases page](https://github.com/farbe-sof
 
 After installation completes, **Hb-Karabiner-Elements** starts automatically and requests the necessary macOS permissions (Input Monitoring and a virtual HID driver approval). Follow the dialogs in the Hb-Karabiner-Elements UI until it no longer shows messages for missing permissions.
 
-Note that the HID driver bundled with Hb-Karabiner-Elements is a signed build from pqrs.
-
 Once permissions are granted, **start Hackboard**. On launch, Hackboard runs an initial sanity check and asks for access to the folder containing `karabiner.json` via a system folder picker. Hackboard uses security-scoped bookmarks, so it cannot access files outside the granted folder without explicit user consent.
 
 Once folder access is granted, Hackboard loads an example configuration showcasing its capabilities.
