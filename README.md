@@ -141,7 +141,7 @@ Hold Right ⌘ to type numbers from the home row, eliminating the reach to the n
 
 ## Uninstall
 
-First uninstall Hb-Karabiner-Elements through its UI. Then, delete Hackboard from the Applications folder. A restart is required to complete the uninstallation.
+A full uninstall can be triggered from the Hackboard settings page or through the Hb-Karabiner-Elements UI. Either option removes both applications. A restart is required to complete the uninstallation.
 
 ## Feedback & Issues
 
