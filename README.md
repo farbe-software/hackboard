@@ -5,7 +5,7 @@
 
 Hackboard is a keyboard customization app for macOS. It enables namespaced and deeply layered shortcut systems by turning letter keys into modifiers — with smart rollover protecting your normal typing — letting you efficiently launch apps, remap keys or shortcuts, edit text, run shell commands, and more.
 
-Built on [Karabiner Elements](https://karabiner-elements.pqrs.org/) by [Fumihiko Takayama](https://github.com/tekezo) — without his years of work on macOS keyboard customization, Hackboard would not exist. [Support his work](https://karabiner-elements.pqrs.org/docs/pricing/). Hackboard is driven by a custom fork (called Hb-Karabiner-Elements) with a visual editor on top, fully compatible with Karabiner-Elements, currently pinned to version 15.0.0.
+Built on [Karabiner Elements](https://karabiner-elements.pqrs.org/) by [Fumihiko Takayama](https://github.com/tekezo) — without his years of work on macOS keyboard customization, Hackboard would not exist. [Support his work](https://karabiner-elements.pqrs.org/docs/pricing/). Inspired by [Max Stoiber's Karabiner configuration](https://github.com/mxstbr/karabiner). Hackboard is driven by a custom fork (called Hb-Karabiner-Elements) with a visual editor on top, fully compatible with Karabiner-Elements, currently pinned to version 15.0.0.
 
 <img src="./demo_image.jpeg" />
 
