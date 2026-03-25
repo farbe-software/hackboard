@@ -7,9 +7,9 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.1.0-beta</title>
+      <title>Version 0.1.1-beta</title>
       <description><![CDATA[
-<h1 id="hackboard-v0.1.0-beta">Hackboard v0.1.0-beta</h1>
+<h1 id="hackboard-v0.1.1-beta">Hackboard v0.1.1-beta</h1>
 <p>First public release.</p>
 <p>Hackboard is built on <a
 href="https://karabiner-elements.pqrs.org/">Karabiner Elements</a> by
@@ -43,19 +43,19 @@ Karabiner rules keep working alongside Hackboard keymaps.</li>
 <li>Apple Silicon recommended</li>
 </ul>
 <h2 id="notes">Notes</h2>
-<p>Hackboard is in early beta and actively developed. You may encounter
+<p>Hackboard is in public beta and actively developed. You may encounter
 rough edges. Your feedback is what shapes the product — please <a
 href="https://github.com/farbe-software/hackboard/issues">report bugs
 and share ideas</a>.</p>
       ]]></description>
-      <pubDate>Thu, 19 Mar 2026 12:42:04 +0000</pubDate>
-      <sparkle:version>0.1.0-beta</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta</sparkle:shortVersionString>
+      <pubDate>Wed, 25 Mar 2026 07:32:09 +0000</pubDate>
+      <sparkle:version>0.1.1-beta</sparkle:version>
+      <sparkle:shortVersionString>0.1.1-beta</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/farbe-software/hackboard/releases/download/v0.1.0-beta/hackboard-0.1.0-beta.zip"
+        url="https://github.com/farbe-software/hackboard/releases/download/v0.1.1-beta/hackboard-0.1.1-beta.zip"
         type="application/octet-stream"
-        sparkle:edSignature="1onEw/t9v2RgEkK/M8jkgZ5wxm+5tixEwHvGxvE1Cf7Ec53OFXAFP8X2N9sdQpDMxisEm/Z1L2Uh9JgdokULDw==" length="20803708" />
+        sparkle:edSignature="PMaLL/e1cvOdiNzDkwFMljDapY37zRaxYDoVSifS6Gw27Y9IYUnLcFtZLvIt0U7G9rZVmNIEJhqSFNJ1eVgmAQ==" length="20828851" />
     </item>
 
   </channel>
