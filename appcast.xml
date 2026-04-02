@@ -7,55 +7,34 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.1.1-beta</title>
+      <title>Version 0.1.2-beta</title>
       <description><![CDATA[
-<h1 id="hackboard-v0.1.1-beta">Hackboard v0.1.1-beta</h1>
-<p>First public release.</p>
-<p>Hackboard is built on <a
-href="https://karabiner-elements.pqrs.org/">Karabiner Elements</a> by
-Fumihiko Takayama. <a
-href="https://karabiner-elements.pqrs.org/docs/pricing/">Support his
-work</a>.</p>
-<h2 id="whats-in-the-box">What’s in the box</h2>
+<h1 id="hackboard-v0.1.2-beta">Hackboard v0.1.2-beta</h1>
+<h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Letter keys as modifiers</strong> — Hold any letter key to
-activate a layer of shortcuts. Tap it normally and it types as usual,
-thanks to smart rollover that protects your typing at any speed.</li>
-<li><strong>Deep chaining</strong> — Layer up to four levels deep. E.g.
-hold <code>A</code> → <code>C</code> → <code>M</code> → <code>K</code>
-to drill from “Apps” → “Chrome” → “Maps” → a specific location.</li>
-<li><strong>Independent left/right modifiers</strong> — Right ⌘, ⌥, ⌃,
-and ⇧ can do different things than their left counterparts. E.g. hold
-Right ⌘ to type numbers from the home row.</li>
-<li><strong>Three action types</strong> — Remap to keyboard shortcuts,
-insert text, or run shell commands (including app switching).</li>
-<li><strong>Visual editor</strong> — Record key chains by performing
-them. No JSON editing needed.</li>
-<li><strong>Guided onboarding</strong> — Interactive walkthrough with
-example keymaps to get started immediately.</li>
-<li><strong>Built on Karabiner Elements</strong> — Ships with
-Hb-Karabiner-Elements (our fork, pinned to v15.0.0). Your existing
-Karabiner rules keep working alongside Hackboard keymaps.</li>
-</ul>
-<h2 id="requirements">Requirements</h2>
-<ul>
-<li>macOS 13 (Ventura) or later</li>
-<li>Apple Silicon recommended</li>
+<li><strong>Karabiner-Elements conflict detection</strong> — The
+installer now checks for an existing Karabiner-Elements installation and
+blocks with a clear message, preventing conflicts with Hackboard’s
+bundled Hb-Karabiner-Elements. Both the macOS installer UI and the
+preinstall script enforce this check.</li>
+<li>Fix: Search clear button tap target corrected.</li>
 </ul>
 <h2 id="notes">Notes</h2>
-<p>Hackboard is in public beta and actively developed. You may encounter
-rough edges. Your feedback is what shapes the product — please <a
-href="https://github.com/farbe-software/hackboard/issues">report bugs
-and share ideas</a>.</p>
+<ul>
+<li>If you have Karabiner-Elements installed, uninstall it before
+installing Hackboard. Your configuration files in
+<code>~/.config/karabiner/</code> will be preserved. A reboot is needed
+after uninstalling.</li>
+</ul>
       ]]></description>
-      <pubDate>Wed, 25 Mar 2026 07:32:09 +0000</pubDate>
-      <sparkle:version>0.1.1-beta</sparkle:version>
-      <sparkle:shortVersionString>0.1.1-beta</sparkle:shortVersionString>
+      <pubDate>Thu, 02 Apr 2026 19:58:49 +0000</pubDate>
+      <sparkle:version>0.1.2-beta</sparkle:version>
+      <sparkle:shortVersionString>0.1.2-beta</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/farbe-software/hackboard/releases/download/v0.1.1-beta/hackboard-0.1.1-beta.zip"
+        url="https://github.com/farbe-software/hackboard/releases/download/v0.1.2-beta/hackboard-0.1.2-beta.zip"
         type="application/octet-stream"
-        sparkle:edSignature="PMaLL/e1cvOdiNzDkwFMljDapY37zRaxYDoVSifS6Gw27Y9IYUnLcFtZLvIt0U7G9rZVmNIEJhqSFNJ1eVgmAQ==" length="20828851" />
+        sparkle:edSignature="hbQkFeVTtbW3IqNL6BCH+B7cZjqj++DEFyK48lLxLxIHyUdmByNA3eu6H2Q+oYZGbEX3t/4y4nS1kI0gPPt8BA==" length="20828703" />
     </item>
 
   </channel>
