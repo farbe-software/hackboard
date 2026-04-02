@@ -3,7 +3,7 @@
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue?style=flat-square)
 ![Karabiner-Elements](https://img.shields.io/badge/Karabiner--Elements-15.0.0-green?style=flat-square)
 
-Hackboard is a macOS app enabling layered keymaps (based on the hold-tap paradigm) to trigger actions more efficiently and ergonomically with your keyboard. **Hold a key, tap another, map it to an action - that's a keymap.**
+Hackboard is a macOS app enabling layered keymaps (based on the hold-tap paradigm) to trigger actions more efficiently and ergonomically with your keyboard. **Hold a sequence, tap a key, map an action - that's a keymap.**
 
 **Examples**:
 
