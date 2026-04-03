@@ -3,6 +3,9 @@
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue?style=flat-square)
 ![Karabiner-Elements](https://img.shields.io/badge/Karabiner--Elements-15.0.0-green?style=flat-square)
 
+> [!NOTE]
+> Beta testing is paused while we evaluate feedback. Thanks to everyone who participated — we'll be back.
+
 Hackboard is a macOS app enabling layered keymaps (based on the hold-tap paradigm) to trigger actions more efficiently and ergonomically with your keyboard. **Hold a sequence, tap a key, map an action - that's a keymap.**
 
 **Examples**:
@@ -22,16 +25,11 @@ Hackboard bundles Hb-Karabiner-Elements, a fork of [Karabiner-Elements](https://
 
 <img src="./demo_image.jpeg" />
 
-## Beta 
-
-Pre-launch users obtain a free lifetime license by submitting feedback through the app (provide email!). A generous free tier and a fair lifetime license will exist after launch. 
-
 ## Get Started
 
-1. [Download Latest GitHub Release](https://github.com/farbe-software/hackboard/releases/latest/download/Hackboard.dmg)
-2. **Hb-Karabiner-Elements** starts automatically after install — grant the macOS permissions it requests (Input Monitoring, virtual HID driver).
-3. **Start Hackboard** — it asks for access to the folder containing `karabiner.json` via a system folder picker.
-4. Hackboard loads an example configuration - try it, change it and hack away!
+1. **Hb-Karabiner-Elements** starts automatically after install — grant the macOS permissions it requests (Input Monitoring, virtual HID driver).
+2. **Start Hackboard** — it asks for access to the folder containing `karabiner.json` via a system folder picker.
+3. Hackboard loads an example configuration - try it, change it and hack away!
 
 > [!IMPORTANT]
 > **Switching from Karabiner-Elements?** Uninstall it first and ensure your `karabiner.json` is compatible with Karabiner-Elements 15.0.0.
