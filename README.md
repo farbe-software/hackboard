@@ -4,7 +4,7 @@
 ![Karabiner-Elements](https://img.shields.io/badge/Karabiner--Elements-15.0.0-green?style=flat-square)
 
 > [!NOTE]
-> Beta testing is paused while we evaluate feedback. Thanks to everyone who participated — we'll be back.
+> Hackboard is an experimental project that never left the testing phase. You're welcome to try it, but it is not under active development and currently no updates are planned.
 
 Hackboard is a macOS app enabling layered keymaps (based on the hold-tap paradigm) to trigger actions more efficiently and ergonomically with your keyboard. **Hold a sequence, tap a key, map an action - that's a keymap.**
 
